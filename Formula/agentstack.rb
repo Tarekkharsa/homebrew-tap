@@ -12,28 +12,28 @@
 class Agentstack < Formula
   desc "One portable manifest, every agent CLI — manage MCP servers + skills across AI coding tools"
   homepage "https://github.com/Tarekkharsa/agentstack"
-  version "0.17.0"
+  version "0.17.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/Tarekkharsa/agentstack/releases/download/v#{version}/agentstack-aarch64-apple-darwin.tar.gz"
-      sha256 "3108777d6452c68ec4dd83d4640796288c1ec3b4e2c7438c01012fb2a23e1101"
+      sha256 "0b11607e973489a4740c0ef27f9353f7dba1b14eefc379a995e4cc2ce3b12253"
     end
     on_intel do
       url "https://github.com/Tarekkharsa/agentstack/releases/download/v#{version}/agentstack-x86_64-apple-darwin.tar.gz"
-      sha256 "fbf98a5d94c17f57a2fb79a1f613774b7de9fc3118aadaaea649b81d70e0f28b"
+      sha256 "b31fd637f8a6aebda4a226801b8f9f5519ab243a109921a7d7986bbd6b15276a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Tarekkharsa/agentstack/releases/download/v#{version}/agentstack-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d6c246856c65177e81b601a1142d3e66d0925083fc6bc0992789531d8e035f7"
+      sha256 "c7f50d0a5a24a33e84e9e0431cf9af9abf47632a03eaf10a29ed67d7d685dc8f"
     end
     on_intel do
       url "https://github.com/Tarekkharsa/agentstack/releases/download/v#{version}/agentstack-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e10ca10df0cac0611c0f61a2dd5e551768b02fe2d53045e918ab9a6fe316d7b8"
+      sha256 "79b913571a6d56255db588b656e47f9156ceb351c2769adf3add6f618a0fef53"
     end
   end
 
